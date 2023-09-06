@@ -133,8 +133,8 @@ string (arrayoriginal)
 
 
 function maiorMenor (){
-    let numeroMaior = 0
-    let numeroMenor = 0
+    let numeroMaior = arrayoriginal[0]
+    let numeroMenor = arrayoriginal[0]
  for(let i = 0; i < arrayoriginal.length; i++) {
  let numeroAtual = arrayoriginal[i]
  if(numeroAtual >= numeroMaior) {
@@ -146,3 +146,6 @@ function maiorMenor (){
  console.log(`O maior número é ${numeroMaior} e o menor numero é ${numeroMenor}`)
 }
 maiorMenor(arrayoriginal)
+
+
+
